@@ -1,0 +1,55 @@
+.container {
+    h1 {
+        margin: 50px;
+    }
+    .main {
+        font: bold 12px "Helvetica Neue", Helvetica, Arial, sans-serif;
+        float: left;
+        height: 75px;
+        width: 150px;
+        margin: 50px;
+        text-align: center;
+        padding: 30px;
+        border: 3px solid rgb(0, 0, 0);
+    }
+
+    .btns {
+        float: right;
+        margin: -80px 50px;
+        .button {
+            background-color: #37ce37;
+            border-radius: 25px;
+            color: white;
+            padding: 15px 32px;
+            text-align: center;
+            text-decoration: none;
+            display: inline-block;
+            font-size: 16px;
+            margin: -50px 0px;
+            cursor: pointer;
+        }
+
+        .button1 {
+            box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+        }
+        .deleteBtn {
+            background-color: #37ce37;
+            border-radius: 25px;
+            color: white;
+            padding: 15px 32px;
+            text-align: center;
+            display: inline-block;
+            font-size: 16px;
+            border: 0px;
+            cursor: pointer;
+            box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+        }
+    }
+}
+
+.cancelBtn {
+    background-color: #37ce37;
+    border-radius: 25px;
+    color: white;
+    padding: 15px 32px;
+}
